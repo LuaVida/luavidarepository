@@ -1,0 +1,19 @@
+estilo.css
+
+
+
+*{
+     margin:0;
+     padding:0;
+     box-sinig: border-box;
+}
+.container{
+     max-width:1080px;
+}
+
+header{
+     background-colo:#000000;
+     width:100%
+}           
+
+

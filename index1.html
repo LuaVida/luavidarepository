@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+      
+      <meta name="VIEWPORT" content="WIDTH=DEVICE-WIDTH,INITIAL-SCALE=1.0">
+      <meta charset='utf-8'>
+      <title>Vivirith</title>
+      <link rel="stylesheet" type="text/css" href="menu_horizontal.css">
+
+<style>
+
+ * {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 5 px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #D8BFD8;
+  color: #000000; 
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #D8BFD8;
+  padding: 15px;
+  color: #000000;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #D8BFD8;
+  color: #000000;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+#myDIV2 {
+  position: absolute;
+  left: 0;
+  width: 250px;
+  height: 100px;
+  background-color:#D8BFD8;
+  color: purple;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  100% {left: 2000px;} 
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+a.one:link {color:#ff0000;}
+a.one:visited {color:#0000ff;}
+a.one:hover {font-size:150%;}
+
+a.two:link {color:#ff0000;}
+a.two:visited {color:#0000ff;}
+a.two:hover {font-size:150%;}
+
+a.three:link {color:#ff0000;}
+a.three:visited {color:#0000ff;}
+a.three:hover {font-size:150%;}
+
+a.four:link {color:#ff0000;}
+a.four:visited {color:#0000ff;}
+a.four:hover {font-size:150%;}
+
+
+
+
+</style>
+</head>
+<body>
+<ul>
+       <li><a href="MortalKombat.html">MENU</a></li>
+       <li><a class="active" href="teste.html">Acessório</a></li>
+       <li><a href="Historia.html">Promoções</a></li>
+       <li><a href="#news">Novidades</a></li>
+</ul>  
+<img src="lvlv.jpg" width="10%" height=10% align="1%" alt="lvlv">
+<HR width="100%"align="left" size="3" color="purple"> 
+
+<div class="header">
+  <center><h1>Tem novidade na loja !!!</h1></center>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li>kit de maquiagem</li>
+      <li>Cuidado com a pele</li>
+      <li>Acessórios</li>
+      <li>#</li>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <h1></h1>
+    <p>Descubra a arte de ser única, realce sua beleza com atitude.</p>
+
+    <img src="img/beleza" width="460" height="345">
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>#</h2>
+      <p>Minha conta</p>
+      <h2>#</h2>
+      <p>Polícas</p>
+      <h2>#</h2>
+      <p>Atendimento</p>
+    </div>
+  </div>
+</div>
+
+ <div id="myDIV2">
+              <h1>Lançamentos</h1>
+              </div>
+              <br><br>
+
+              <br><br>
+
+             <br><br>
+   </div>
+
+
+     
+
+<div class="gallery">
+  <a target="_blank" href="img">
+    <img src="img/1212.jpg" alt="1212.jpg" width="600" height="400">
+  </a>
+  <div class="desc">Kit de maquiagem</div>
+  <p><b><a class="one" href="rosto" target="_blank">kitp</a></b></p>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img">
+    <img src="img/cuid.png" alt="cuid.png" width="600" height="400">
+  </a>
+  <div class="desc">Cuidados com a pele</div>
+  <p><b><a class="two" href="img/skincare" target="_blank">skincare</a></b></p>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img">
+    <img src="img/kitp.jpg" alt="kitp.jpg" width="600" height="400">
+  </a>
+  <div class="desc">Acessório</div>
+  <p><b><a class="three" href="acessorio.html" target="_blank">acessorio</a></b></p>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img">
+    <img src="img/somb02.jpg" alt="somb02.jpg" width="600" height="400">
+  </a>
+   <div class="desc">olhos</div>
+ <p><b><a class="four" href="olho.html" target="_blank">olho</a></b></p>
+</div>
+
+
+
+
+
+<br></br>
+
+  <div class="footer">
+    <p>Siga nossa redes sociais</p>
+  </div>
+
+
+</body>
+</html>
+
